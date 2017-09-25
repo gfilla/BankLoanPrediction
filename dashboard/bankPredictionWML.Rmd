@@ -13,17 +13,7 @@ output:
 
 ```{r setup, include=FALSE}
 
-### Run this first before Knitting the RMD ##############
-if(!require(devtools)){
-    install.packages("devtools")
-    library(devtools)
-}
-
-library(devtools)
-devtools::install_github(repo = 'Davin-IBM/R4WML')
-devtools::install_github('IBMDataScience/objectStoreR') 
-
-library('objectStoreR') 
+library(objectStoreR) 
 library(flexdashboard)
 library(dplyr)
 library(jsonlite)
