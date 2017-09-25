@@ -1,0 +1,74 @@
+---
+title: "Loan Predictions Dashboard"
+runtime: shiny
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+    source_code: https://github.com/IBMDataScience
+    social: [ "twitter", "facebook", "linkedin" ]
+
+    
+---
+
+```{r setup, include=FALSE}
+
+
+```
+
+Predictive Model Evaluation
+=====================================
+
+Row  {.sidebar data-width=350}
+-----------------------------------------------------------------------
+
+### Customer Attributes and Prediction
+
+```{r}
+
+
+```
+
+Row {data-height=150}
+-----------------------------------------------------------------------
+
+### Predicted probability of Yes Loan
+
+```{r}
+
+
+```
+
+
+### Predicted probability of No Loan
+
+```{r}
+
+
+```
+
+Row {data-height=100}
+-----------------------------------------------------------------------
+
+```{r}
+
+
+```
+
+
+Row {data-height=700}
+-----------------------------------------------------------------------
+
+### Distribution of Input Features
+
+```{r}
+
+
+```
+
+### JSON Returned from WML API
+
+```{r}
+
+
+```
