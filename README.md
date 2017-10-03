@@ -1,13 +1,15 @@
-# BankLoanPrediction
+# Bank Loan Predictions
 This repository has demo materials for building a scikit-learn model, deploying it, and visualizing it with a shiny dashboard.
 
 ---
 
-## Load R.zip to your RStudio - Managing dependencies
+## Running the Dashboard
+
+### Load R.zip to your RStudio - Managing dependencies
 
 1. [Download the R.zip here](https://ibm.box.com/shared/static/fd8vgznfuv3x6rrx65vnxh4sj2chd7la.zip).
 2. In your RStudio environment click `Upload`  then select the R.zip
-<img src="https://github.com/gfilla/BankLoanPrediction/blob/master/img/upload.png" width= 350>
+<img src="https://github.com/gfilla/BankLoanPrediction/blob/master/img/upload.png" width= 400>
 
 Note: This will take some time to complete
 
@@ -21,7 +23,9 @@ Note: This will take some time to complete
 
 Now you are using the same package versions I used when developing the dashboard.
 
-## Commands to run dashboard:
+--- 
+
+### Commands to run dashboard:
 
 ```r
 # clone this repository to your RStudio
@@ -32,7 +36,9 @@ rmarkdown::run("BankLoanPrediction/dashboard/bankPredictionWML.Rmd")
 
 ```
 
-## Challenges
+---
+
+### Challenges
 
 1. Add new tab to the dashboard called `Data` with a view of the dataframe `testScores`
 2. Replace the JSON output with visualization of your choice
@@ -43,3 +49,8 @@ rmarkdown::run("BankLoanPrediction/dashboard/bankPredictionWML.Rmd")
 
 1. Check out renderDataTable
 2. Start by duplicating the viz in the demo and check out this [Plotly book](https://plotly-book.cpsievert.me/) to help find interesting plots
+
+
+---
+
+Created by [Greg Filla](https://www.linkedin.com/in/gfilla/)
