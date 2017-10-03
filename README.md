@@ -5,7 +5,7 @@ This repository has demo materials for building a scikit-learn model, deploying 
 
 ## Load R.zip to your RStudio - Managing dependencies
 
-1. Download the R.zip here.
+1. [Download the R.zip here](https://ibm.box.com/shared/static/fd8vgznfuv3x6rrx65vnxh4sj2chd7la.zip).
 2. In your RStudio environment click `Upload`  then select the R.zip
 
 Now you are using the same package versions I used when developing the dashboard.
