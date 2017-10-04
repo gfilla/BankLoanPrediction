@@ -3,6 +3,7 @@ This repository has demo materials for building a scikit-learn model, deploying 
 
 ### Contents:
  
+- [Slides available for download](https://github.com/gfilla/BankLoanPrediction/blob/master/Building%20an%20interactive%20dashboard%20with%20R%20Shiny.pptx)
 - /notebook - [Using Sciki-learn and Watson Machine Learning to deploy a random forest model](https://github.com/gfilla/BankLoanPrediction/blob/master/notebook/Bank%20Marketing%20Modeling%20-%20RF%20Deploy.ipynb)
 - /dashboard - [R scripts to call the deployed model in a dashboard](https://github.com/gfilla/BankLoanPrediction/tree/master/dashboard)
 - /sample_data - [Extra data to test geospatial visualizations, not used in the project](https://github.com/gfilla/BankLoanPrediction/tree/master/sample_data)
